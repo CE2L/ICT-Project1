@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203, W503, W292, E275, E501, E302, E225, E231, E226, E227, E722
+exclude =
+    frontend/app/node_modules,
+    .venv,
+    venv,
+    __pycache__,
+    .git,
+    .pytest_cache
